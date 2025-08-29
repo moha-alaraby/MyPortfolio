@@ -192,22 +192,24 @@
       color: #ccc;
     }
 
-    .card a {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 8px 15px;
-      background: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 500;
-      transition: 0.3s;
-    }
+.card a:not(:first-child){
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
 
-    .card a:hover {
+    .card a:hover:not(:first-child) {
       background: #0056b3;
     }
-
+    .card a{
+      text-decoration: none;
+    }
     /* Footer */
     footer {
       background: #333;
