@@ -28,7 +28,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px 50px;
+      padding: 15px 10px;
       transition: 0.3s;
     }
 
@@ -73,7 +73,6 @@
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 15px;
     }
 
     .toggle-btn:hover {
