@@ -306,6 +306,12 @@ body.dark .card {
         gap: 25px;
     }
     }
+    @media(max-width:600px){
+      .card {
+          width: 93%;
+          margin: auto;
+      }
+    }
     /* السهم */
 
   .chevrons{
@@ -347,4 +353,5 @@ body.dark .card {
     position:absolute; top:24px; left:24px;
     padding:10px 14px; border-radius:14px; border:1px solid #2a2f39; background:#151922; color:#cbd5e1;
   }
+
 
